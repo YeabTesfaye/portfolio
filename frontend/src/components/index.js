@@ -1,0 +1,8 @@
+export {default as Contact} from './contact/Contact'
+export {default as Navbar} from './navbar/Navbar'
+export {default as Experieance} from './experieance/Experieance'
+export {default as Footer} from './footer/Footer'
+export {default as Header} from './header/Header'
+export {default as Testimonials} from './testimonials/Testimonials'
+export {default as  Services} from './services/Services'
+export {default as Portfolio} from './portfolio/Portfolio'
