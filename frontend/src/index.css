@@ -1,19 +1,58 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+:root{
+  --color-bg:#1f1f38;
+  --color-bg-varient:#2c2c6c;
+  --color-primary:#4db5ff;
+  --color-primary-varient:rgba(77,181,255,0.4);
+  --color-white:#fff;
+  --color-light:rgba(255,255,255,0.6);
+
+  --container-width-lg:75%;
+  --container-width-md:86%;
+  --conatiner-width-sm:90%;
+  
+}
+
+htm{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  background-image: url('../src/assets/bg-texture.png');
+}
+
+/****************** GENERAl Styles ********/
+.container{
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5{
+  font-weight: 500;
+}
+h1{
+  font-size: 2.5rem;
+}
+section{
+  margin-top: 8rem;
+}
+
+section > h2, section > h5{
+  text-align: center;
+}
