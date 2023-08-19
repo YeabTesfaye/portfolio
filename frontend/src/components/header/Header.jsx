@@ -1,9 +1,23 @@
+import CTA from './CTA'
+import HeaderSocials from './HeaderSocilas.jsx';
 import './header.css'
-
-function Header(){
-    return(<section>
-        
-    </section>)
+import me from '/assets/me.png'; // Notice the leading slash
+function Header() {
+    return (<header>
+        <div className="container header__container">
+            <h5>Hello I'm</h5>
+            <h1>Yeab T.</h1>
+            <div className="text-light">Full Stack Developer</div>
+            <CTA />
+            <HeaderSocials />
+            <div className="me">
+                <img src={me} alt="Yeab" />
+            </div>
+            <a href="#contact" className='scroll__down'>
+                Scroll Down
+            </a>
+        </div>
+    </header>)
 }
 
 export default Header
