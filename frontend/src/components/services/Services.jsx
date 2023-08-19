@@ -2,8 +2,8 @@ import './services.css'
 
 
 function Services(){
-    return(<section>
-        
+    return(<section id='services'>
+        <h1>services</h1>
     </section>)
 }
 
