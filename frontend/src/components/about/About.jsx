@@ -1,8 +1,9 @@
 import './about.css'
 
 function About(){
-    return(<>
-    </>)
+    return(<section>
+        
+    </section>)
 }
 
 

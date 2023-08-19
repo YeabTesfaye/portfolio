@@ -3,7 +3,9 @@ import './navbar.css'
 
 function Navbar(){
     
-    return(<></>)
+    return(<section>
+        
+    </section>)
 }
 
 export default Navbar

@@ -1,8 +1,9 @@
 import './header.css'
 
 function Header(){
-    return(<>
-    </>)
+    return(<section>
+        
+    </section>)
 }
 
 export default Header

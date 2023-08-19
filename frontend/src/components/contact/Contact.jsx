@@ -1,8 +1,9 @@
 import './contact.css'
 
 function Contact(){
-    return(<>
-    </>)
+    return(<section>
+        
+    </section>)
 }
 
 export default Contact
