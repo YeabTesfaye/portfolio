@@ -1,12 +1,12 @@
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocilas.jsx';
 import './header.css'
-import me from '/assets/me.png'; // Notice the leading slash
+import me from '/assets/me.JPG'; // Notice the leading slash
 function Header() {
     return (<header>
         <div className="container header__container">
             <h5>Hello I'm</h5>
-            <h1>Yeab T.</h1>
+            <h1>Yeabsera T.</h1>
             <div className="text-light">Full Stack Developer</div>
             <CTA />
             <HeaderSocials />

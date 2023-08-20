@@ -1,5 +1,5 @@
-import { Navbar,Contact,Testimonials ,Experieance,About,Footer,Header, Services, Portfolio } from "./components"
-
+import { Navbar,Contact,Testimonials ,Experieance,About,Footer,Header, Services } from "./components"
+import Portfolio from "./components/portfolio/Portfolio.jsx"
 function App() {
 
   return(<>
@@ -10,6 +10,7 @@ function App() {
         <Services />
         <Portfolio />
         <Testimonials />
+        <Contact />
         <Footer />
      </>)
 }
