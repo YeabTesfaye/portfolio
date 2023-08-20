@@ -2,7 +2,7 @@ import './about.css'
 import {LiaAwardSolid} from 'react-icons/lia'
 import {FaUsers} from 'react-icons/fa'
 import {VscFolderLibrary} from 'react-icons/vsc'
-import me from '/assets/me-about.JPG'
+import me from '/assets/me-about.jpg'
 function About(){
     return(<section id='about'> 
        <h5>Get To Know</h5>
@@ -31,11 +31,12 @@ function About(){
                     <small>8+  completed</small>
                 </article>
             </div>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor architecto saepe
-                veritatis distinctio necessitatibus accusamus eius? Deleniti, veritatis odit?
-                Debitis? Lorem ipsum dolor sit amet.
-            </p>
+             <p>
+             I'm Yeabisera Tesfaye, a Computer Science graduate from Addis Ababa University
+            and a passionate full-stack developer. Let's bring ideas to life!
+             </p>
+
+
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
        </div>
